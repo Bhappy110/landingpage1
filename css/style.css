@@ -1,0 +1,55 @@
+body{
+	background:  url(../img/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+.logo{
+	width: 150px;
+}
+.logo:hover{
+	width: 160px;
+	height: 35px;
+	transition: 0.5s;
+}
+.detail{
+	margin-top: 150px;
+	color: white;
+}
+.login{
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 30px;
+	padding: 10px 30px;
+	color: white;
+}
+
+.github{
+	margin-left: 10px;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 30px;
+	padding: 10px 30px;
+	color: white;
+}
+
+.login:hover{
+	text-decoration: none;
+	color: white;
+	background-color: rgba(51, 51, 51, 0.5);
+}
+
+.github:hover{
+	text-decoration: none;
+	color: white;
+	background-color:  rgba(51, 51, 51, 0.5);
+}
+
+.detail{
+	opacity: 0;	
+}
+
+.detail.muncul{
+	opacity: 1;
+	transition: 1s;
+}
